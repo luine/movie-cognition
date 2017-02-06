@@ -25,7 +25,11 @@
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem systemItem="camera" id="s1n-sD-JHA"/>
+                                    <barButtonItem systemItem="camera" id="s1n-sD-JHA">
+                                        <connections>
+                                            <segue destination="0b1-Wm-6Zj" kind="showDetail" action="showViewController:sender:" id="gl0-eu-gAa"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem systemItem="search" id="A2b-b3-hKy" userLabel="searchButton">
                                         <connections>
                                             <action selector="touchedSearch:" destination="BYZ-38-t0r" id="RI8-hH-EmH"/>
@@ -50,6 +54,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--CameraStoryboard-->
+        <scene sceneID="yeC-ax-Cqs">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CameraStoryboard" id="0b1-Wm-6Zj" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NW6-QO-3cN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-172" y="470"/>
         </scene>
     </scenes>
 </document>

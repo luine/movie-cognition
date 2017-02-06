@@ -16,6 +16,7 @@
 		098D1FCA1E447A170009260E /* movie_cognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098D1FC91E447A170009260E /* movie_cognitionTests.swift */; };
 		098D1FD51E447A170009260E /* movie_cognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098D1FD41E447A170009260E /* movie_cognitionUITests.swift */; };
 		098D1FE31E44804E0009260E /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 098D1FE21E44804E0009260E /* test.mp4 */; };
+		4C48F51D1E485C19001C4588 /* CameraStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C48F51C1E485C19001C4588 /* CameraStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		098D1FD41E447A170009260E /* movie_cognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movie_cognitionUITests.swift; sourceTree = "<group>"; };
 		098D1FD61E447A170009260E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		098D1FE21E44804E0009260E /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
+		4C48F51C1E485C19001C4588 /* CameraStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CameraStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				098D1FBD1E447A160009260E /* LaunchScreen.storyboard */,
 				098D1FC01E447A160009260E /* Info.plist */,
 				098D1FB81E447A160009260E /* movie_cognition.xcdatamodeld */,
+				4C48F51C1E485C19001C4588 /* CameraStoryboard.storyboard */,
 			);
 			path = "movie-cognition";
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				098D1FBF1E447A160009260E /* LaunchScreen.storyboard in Resources */,
 				098D1FBC1E447A160009260E /* Assets.xcassets in Resources */,
 				098D1FB71E447A160009260E /* Main.storyboard in Resources */,
+				4C48F51D1E485C19001C4588 /* CameraStoryboard.storyboard in Resources */,
 				098D1FE31E44804E0009260E /* test.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,6 +526,7 @@
 				098D1FDB1E447A170009260E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		098D1FDC1E447A170009260E /* Build configuration list for PBXNativeTarget "movie-cognitionTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +535,7 @@
 				098D1FDE1E447A170009260E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		098D1FDF1E447A170009260E /* Build configuration list for PBXNativeTarget "movie-cognitionUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +544,7 @@
 				098D1FE11E447A170009260E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
