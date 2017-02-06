@@ -30,6 +30,13 @@ class ViewController: UIViewController {
     var videoPlayer : AVPlayer!
     var seekBar : UISlider!
     
+    @IBOutlet weak var search: UIToolbar!
+    @IBOutlet weak var searchButton: UIBarButtonItem!
+    
+    @IBOutlet weak var testlabel: UILabel!
+    @IBAction func touchedSearch(_ sender: Any) {
+        testlabel.text = "touched"
+    }
     override func viewDidLoad() {
         // パスからassetを生成.
         let path = Bundle.main.path(forResource: "test", ofType: "mp4")
