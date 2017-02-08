@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0982FBDE1E49C485006857B6 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0982FBDD1E49C485006857B6 /* CameraViewController.swift */; };
+		0982FBE11E49C618006857B6 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0982FBE01E49C618006857B6 /* CoreImage.framework */; };
 		098D1FB21E447A160009260E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098D1FB11E447A160009260E /* AppDelegate.swift */; };
 		098D1FB41E447A160009260E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098D1FB31E447A160009260E /* ViewController.swift */; };
 		098D1FB71E447A160009260E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 098D1FB51E447A160009260E /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0982FBDD1E49C485006857B6 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		0982FBE01E49C618006857B6 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		098D1FAE1E447A160009260E /* movie-cognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "movie-cognition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		098D1FB11E447A160009260E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		098D1FB31E447A160009260E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0982FBE11E49C618006857B6 /* CoreImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0982FBDF1E49C618006857B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0982FBE01E49C618006857B6 /* CoreImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		098D1FA51E447A160009260E = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +100,7 @@
 				098D1FC81E447A170009260E /* movie-cognitionTests */,
 				098D1FD31E447A170009260E /* movie-cognitionUITests */,
 				098D1FAF1E447A160009260E /* Products */,
+				0982FBDF1E49C618006857B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +126,7 @@
 				098D1FC01E447A160009260E /* Info.plist */,
 				098D1FB81E447A160009260E /* movie_cognition.xcdatamodeld */,
 				4C48F51C1E485C19001C4588 /* CameraStoryboard.storyboard */,
+				0982FBDD1E49C485006857B6 /* CameraViewController.swift */,
 			);
 			path = "movie-cognition";
 			sourceTree = "<group>";
@@ -274,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				098D1FBA1E447A160009260E /* movie_cognition.xcdatamodeld in Sources */,
+				0982FBDE1E49C485006857B6 /* CameraViewController.swift in Sources */,
 				098D1FB41E447A160009260E /* ViewController.swift in Sources */,
 				098D1FB21E447A160009260E /* AppDelegate.swift in Sources */,
 			);
